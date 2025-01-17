@@ -1,0 +1,21 @@
+/*Body*/
+.btn {
+    color: black;
+    padding: 5px 10px;
+    box-shadow: -3px -3px black;
+    background-color: pink;
+    border-radius: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.5s ease;
+ 
+    &:hover,
+    &:focus,
+    &:focus-visible,
+    &:focus-within {
+       background-color: #b260ff;
+    }
+}
+body {
+    background-color: aquamarine;
+}
