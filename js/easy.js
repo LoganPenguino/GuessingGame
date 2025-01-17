@@ -3,7 +3,7 @@ const maxNum = 100;
 const answer = Math.floor(Math.random()*(maxNum - minNum + 1)) + minNum;
 
 let attemps = 0;
-let guess = 0;
+let guess;
 let running = true;
 
 while(running){
